@@ -33,6 +33,7 @@ display: flex;
     width:50%;
     color:#fff;
 }
+
 .button1{
     position: relative;
     display: block;
@@ -135,3 +136,15 @@ a:link {
     padding:0.7%;
     list-style-type: none;
 }
+@media only screen and (max-width: 800px) {
+    body {
+      display:flex;
+      flex-direction: column;
+    }
+    .contact{
+        display: none;
+    }
+    .name,.leftside,.rightside{
+        width:100%;
+    }
+  }
