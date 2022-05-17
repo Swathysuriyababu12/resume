@@ -11,16 +11,16 @@ body{
     justify-content: center;
     align-items: center;
     min-height:100vh;
-    margin: 80px;
+    margin: 70px;
 
 }
 .container{
 position:absolute;
-width: 90%;
-top:40px;
-left:75px;
-margin-right: 40px;
-min-height:208px;
+width:90%;
+top:20px;
+left:70px;
+right:60px;
+height:220px;
 background:#258469;
 display: flex;
 
@@ -50,9 +50,9 @@ display: flex;
     position: relative;
     font-size: 20px;
     margin-top: 10px;
-    width:50%;
+    width:60%;
     align-content:right;
-    margin-left: 600px;
+    margin-left: 400px;
     color:#fff;
     justify-content: right;
 }
@@ -66,7 +66,7 @@ display: flex;
 }
 .rightside{
     position:relative;
-    width:60%;
+    width:65%;
     top:170px;
     min-height:1300px;
     background:#efebeb;
